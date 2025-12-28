@@ -1,0 +1,17 @@
+node_modules/
+/build/
+/.svelte-kit/
+.env
+.env.*
+!.env.example
+.vercel
+.output
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Nix
+result
+result-*
+
+# Generated data (regenerated at build time)
+# src/lib/data/instructions.json
