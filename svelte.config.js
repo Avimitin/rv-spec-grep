@@ -14,6 +14,9 @@ const config = {
 		}),
 		prerender: {
 			entries: ['*']
+		},
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH || '/rv-spec-grep'
 		}
 	}
 };
